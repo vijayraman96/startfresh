@@ -2062,7 +2062,8 @@ textarea:focus {
 
 .choose-box-icon span {
   display: inline-block;
-  background: #029aff;
+  /* background: #029aff; */
+  background: #FAA111;
   height: 30px;
   width: 30px;
   text-align: center;
@@ -2975,7 +2976,9 @@ canvas#canvas {
 
 button.accordion-button.accordion-button2 {
   padding: 24px;
-  background: rgba(2, 154, 255, 0.05);
+  /* background: rgba(2, 154, 255, 0.05);
+   */
+   background: #fdf6ea;
   border-radius: 4px;
 }
 button.accordion-button.accordion-button2 img {
@@ -2986,17 +2989,20 @@ button.accordion-button.accordion-button2 img {
   padding: var(--bs-accordion-body-padding-y) var(--bs-accordion-body-padding-x);
   color: #fff;
   border-radius: 0px 0px 5px 5px;
-  background: var(--business-consulting, #029aff);
+  /* background: var(--business-consulting, #029aff); */
+  background: #FAA111 ;
   font-weight: 500;
   line-height: 28px;
+  text-align: left
   /* padding-top: 0; */
 }
 
 .accordion-button.accordion-button2:not(.collapsed) {
   color: var(--bs-accordion-active-color);
-  background-color: var(--bs-accordion-active-bg);
+  /* background-color: var(--bs-accordion-active-bg); */
+  background: #FAA111 ;
   border-radius: 5px;
-  background: var(--business-consulting, #029aff);
+  /* background: var(--business-consulting, #029aff); */
   color: #fff;
   font-weight: 700;
   border-radius: 5px 5px 0px 0px;
@@ -3463,4 +3469,14 @@ button.accordion-button.accordion-button2 img {
 
 button.accordion-button.accordion-button2:focus {
   box-shadow: none;
+}
+.butlerFont {
+  font-family: 'Butler', serif !important;
+}
+.orange {
+  color: #FAA111 !important
+}
+
+.button1::hover {
+  background: #FAA111 !important
 }

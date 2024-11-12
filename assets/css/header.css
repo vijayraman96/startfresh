@@ -400,7 +400,8 @@ a.home3-cta {
   transition: all.3s;
 }
 .main-menu-ex li a:hover {
-  color: #0263e0;
+  /* color: #0263e0; */
+  color: #FAA111;
   transition: all.3s;
 }
 .main-menu-ex li {
