@@ -13,7 +13,8 @@
   transition: all.3s;
 }
 .single-footer ul li a:hover {
-  color: #2657F2;
+  /* color: #2657F2; */
+  color: #FAA111;
   transition: all.3s;
   margin-left: 5px;
 }
@@ -59,7 +60,8 @@
   padding: 0;
 }
 .social1 ul li a:hover {
-  background-color: #006fff;
+  /* background-color: #006fff; */
+  background-color: #FAA111;
   color: #fff;
   transition: all.4s;
 }

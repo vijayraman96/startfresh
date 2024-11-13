@@ -37,12 +37,28 @@
       .team_para {
         height: 350px !important
       }
+      .home_banner {
+        font-size: 24px !important;
+      }
+      .hover_icon {
+        display: none;
+      }
+      .service1 .service1-single-box:hover .normal_icon{
+        display: none !important;
+      }
+      .service1 .service1-single-box:hover .hover_icon {
+        display: block !important;
+        margin: 0 auto;
+      }
       @media(max-width: 750px) {
         .border5 img {
         width: 90% !important;
         height: 350px;
         object-fit: cover;
         margin: 20px;
+      }
+      .home_banner {
+        font-size: 16px !important;
       }
       .about2-img1 {
         position: relative !important;
@@ -416,7 +432,7 @@
                 <!-- <span class="span" data-aos="fade-right" data-aos-duration="600">Alternative Investment Fund (AIF)</span> -->
                 <h1 data-aos="fade-right" data-aos-duration="700">Partnering with  <span class="before">Entrepreneurs </span> to Shape India’s Tomorrow </h1>
                 <div class="space8"></div>
-                <p data-aos="fade-right" data-aos-duration="1100">Catalyzing economic growth by funding innovative startups that lead transformative industry change in India. </p>
+                <p class="home_banner" data-aos="fade-right" data-aos-duration="1100" >Catalyzing economic growth by funding innovative startups that lead transformative industry change in India. </p>
                 <div class="space30"></div>
                 <div class="brand-buttons1" data-aos="fade-right" data-aos-duration="1400">
                     <div class="header1-b">
@@ -480,10 +496,10 @@
             <div class="col-lg-6">
               <div class="about2-images">
                 <div class="about2-img1" data-aos="zoom-out" data-aos-duration="1000">
-                  <img src="assets/img/image/start_fresh_img.webp" alt="" class="image_one">
+                  <img src="assets/img/image/Home 1.jpg" alt="" class="image_one">
                 </div>
                 <div  class="about2-img2" data-aos="zoom-out" data-aos-duration="1200">
-                  <img  src="assets/img/image/about_the_start_fresh.webp" alt="" class="image_two">
+                  <img  src="assets/img/image/Home2.jpg" alt="" class="image_two">
                 </div>
               </div>
             </div>
@@ -685,8 +701,9 @@
         <div class="row">
           <div class="col-lg-4 col-md-6 text-center">
             <div class="service1-single-box" data-aos="fade-up" data-aos-duration="800">
-              <div class="service1-box-icon">
-                <img src="assets/img/icons/service1-icon4.svg" alt="">
+              <div class="service1-box-icon text-center">
+                <img class="normal_icon"  src="assets/img/image/sector.svg" alt="">
+                <img  class="hover_icon" src="assets/img/image/sector_white.svg" alt="">
               </div>
               <div class="service1-hadding hadding1">
                 <h4><a >Sector-Agnostic Approach</a></h4>
@@ -701,8 +718,9 @@
           </div>
           <div class="col-lg-4 col-md-6 text-center">
             <div class="service1-single-box" data-aos="fade-up" data-aos-duration="1100">
-              <div class="service1-box-icon">
-                <img src="assets/img/icons/service1-icon2.svg" alt="">
+              <div class="service1-box-icon text-center">
+                <img class="normal_icon"  src="assets/img/image/expertise_orange.svg" alt="">
+                <img  class="hover_icon" src="assets/img/image/expertise.svg" alt="">
               </div>
               <div class="service1-hadding hadding1">
                 <h4><a>Expertise & Experience</a></h4>
@@ -717,8 +735,9 @@
           </div>
           <div class="col-lg-4 col-md-6 text-center">
             <div class="service1-single-box" data-aos="fade-up" data-aos-duration="800">
-              <div class="service1-box-icon">
-                <img src="assets/img/icons/service1-icon1.svg" alt="">
+              <div class="service1-box-icon text-center">
+                <img class="normal_icon" src="assets/img/image/partnership_orange.svg" alt="">
+                <img class="hover_icon" src="assets/img/image/partnership.svg" alt="" >
               </div>
               <div class="service1-hadding hadding3">
                 <h4><a>Active Partnership</a></h4>
@@ -1451,8 +1470,8 @@
 
               <div class="foonter-contact3">
                 <div class="foonter-contact-icon3">
-                  <div class="">
-                    <img src="assets/img/icons/footer3-icon1.svg" alt="" />
+                  <div class="" style="width: 20px; height: auto;">
+                    <img src="assets/img/image/mobile.png" alt="" />
                   </div>
                 </div>
                 <div class="foonter-contact-p3">
@@ -1462,14 +1481,15 @@
 
               <div class="foonter-contact3">
                 <div class="foonter-contact-icon3">
-                  <div class="">
-                    <img src="assets/img/icons/footer3-icon2.svg" alt="" />
+                  <div class="" style="width: 30px; height: auto;">
+                    <img src="assets/img/image/gmail.png" alt="" />
                   </div>
                 </div>
                 <div class="foonter-contact-p3">
                   <a href="mailto:hello@startfreshventures.com ">hello@startfreshventures.com </a>
                 </div>
-              </div></div>
+              </div>
+            </div>
 
 
             </div>

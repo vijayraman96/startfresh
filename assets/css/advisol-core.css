@@ -668,7 +668,8 @@ a.menu-toggle.full {
 }
 
 .team-icon-list ul li a:hover {
-  background-color: #2657f2;
+  /* background-color: #2657f2; */
+  background-color: #FAA111;
   transition: all.4s;
   color: #fff;
 }
@@ -1794,7 +1795,7 @@ textarea:focus {
   }
 
   .main-hero {
-    height: 1180px;
+    height: 800px !important;
   }
 
   .home1-header-img1 {
@@ -1961,8 +1962,9 @@ textarea:focus {
   top: 10px;
   left: 10px;
   background: #001344;
+  /* background: #FAA111 */
   border-radius: 5px;
-  z-index: -1;
+  z-index: -1;;
   visibility: hidden;
   transition: all.4s;
   opacity: 0;
@@ -1977,7 +1979,8 @@ textarea:focus {
   left: 0;
   height: 100%;
   width: 100%;
-  background: #00134457;
+  /* background: #00134457; */
+  background: #FAA111;
   border-radius: 5px;
   top: -10px;
   left: -10px;
@@ -1989,13 +1992,13 @@ textarea:focus {
   transition-timing-function: cubic-bezier(0, 0.15, 0.38, 1.5);
 }
 
-.service1-single-box:hover .after-box::after {
+/* .service1-single-box:hover .after-box::after {
   top: 0;
   left: 0;
   visibility: visible;
   transition: all.4s;
   opacity: 1;
-}
+} */
 
 .service1-single-box:hover::before {
   visibility: visible;
@@ -2008,6 +2011,9 @@ textarea:focus {
 .service1-single-box:hover h4 a {
   color: #fff;
   transition: all.4s;
+}
+.service1-single-box:hover h4 a:hover {
+  color: #fff !important;
 }
 .service1-single-box:hover p {
   color: #fff;
@@ -2271,7 +2277,9 @@ canvas#canvas {
 }
 
 .contact3-icon.contact3-icon1 {
-  background: #d3ecfc;
+  /* background: #d3ecfc;
+   */
+   background: #FDF6EA
 }
 
 .subsribe-all.subsribe-all1.sp2 {
@@ -2727,7 +2735,8 @@ canvas#canvas {
 ----====================*/
 
 .section-hero {
-  background-image: url(../img/bg/section-bg.png);
+  /* background-image: url(../img/bg/section-bg.png); */
+  background: #F9F7F1;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -2988,10 +2997,12 @@ button.accordion-button.accordion-button2 img {
 }
 .accordion-body.accordion-body2 {
   padding: var(--bs-accordion-body-padding-y) var(--bs-accordion-body-padding-x);
-  color: #fff;
+  /* color: #fff; */
+  color: #000;
   border-radius: 0px 0px 5px 5px;
   /* background: var(--business-consulting, #029aff); */
-  background: #FAA111 ;
+  /* background: #FAA111 ; */
+  background: #FDF6EA;
   font-weight: 500;
   line-height: 28px;
   text-align: left
