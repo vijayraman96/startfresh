@@ -3012,7 +3012,7 @@ button.accordion-button.accordion-button2 img {
 .accordion-button.accordion-button2:not(.collapsed) {
   color: var(--bs-accordion-active-color);
   /* background-color: var(--bs-accordion-active-bg); */
-  background: #FAA111 ;
+  background: #FAA111 !important;
   border-radius: 5px;
   /* background: var(--business-consulting, #029aff); */
   color: #fff;
@@ -3024,6 +3024,16 @@ button.accordion-button.accordion-button2 img {
 
 .accordion-button.accordion-button2:not(.collapsed) img {
   filter: brightness(0) invert(1);
+  /* background: #FAA111 !important; */
+}
+.accordion-item:first-child .accordion-collapse.show .accordion-button {
+background: #FAA111
+}
+.accordion-button.accordion-button2.collapse {
+  background: #FAA111
+}
+#headingTwo .accordion-button:not(.collapsed) {
+  background: #FAA111 !important;
 }
 
 .accordion-item button {
